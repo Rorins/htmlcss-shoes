@@ -3,8 +3,35 @@
   padding: 0;
   box-sizing: border-box;
 }
+main {
+  height: 100vh;
+  background-color: coral;
+  margin: auto;
+  width: 30%;
+}
+/*Utilities*/
+.square {
+  width: 100%;
+  height: 40%;
+  position: relative;
+}
+section img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 50%;
+}
 
-.container {
-  margin: 10px auto;
-  width: 50%;
+/*First section*/
+.first-section {
+  background-color: red;
+}
+
+.second-section {
+  background-color: green;
+}
+
+.third-section {
+  background-color: yellow;
 }
